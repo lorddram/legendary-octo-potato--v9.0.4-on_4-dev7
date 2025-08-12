@@ -1,0 +1,12 @@
+{
+  "#": "Example Data Block",
+  "kind": "block",
+  "symbol": ".",
+  "grid_size": [3, 3],
+  "grid": [
+    [ { "txt": "*" }, { "txt": "?" }, { "txt": "*" } ],
+    [ { "txt": "?" }, { "txt": "D" }, { "txt": "~" } ],
+    [ { "txt": "*" }, { "txt": "?" }, { "txt": "*" } ]
+  ],
+  "meta": { "created_at": 0 }
+}

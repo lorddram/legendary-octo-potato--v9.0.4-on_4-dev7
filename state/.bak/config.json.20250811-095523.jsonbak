@@ -1,0 +1,27 @@
+{
+  "version": "9.0.4-on_4",
+  "symbols": {
+    "levels": {
+      "quark": ".",
+      "atom": "^",
+      "synthesis": "#"
+    },
+    "cells": {
+      "D": "D",
+      "R": "R",
+      "A": "A",
+      "M": "M"
+    }
+  },
+  "grid": {
+    "rows": 18,
+    "cols": 18
+  },
+  "ui": {
+    "display_mode": "normal"
+  },
+  "blocks": {
+    "no_corner_touch": true,
+    "replicator_id": "replicator"
+  }
+}
