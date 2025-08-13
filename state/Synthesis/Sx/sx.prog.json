@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "compiled_at": 1755079422,
+    "grid": [
+      18,
+      18
+    ]
+  },
+  "placements": [
+    {
+      "addr": "A1",
+      "id": "quarks",
+      "rot": 180,
+      "type": null,
+      "txt": null,
+      "ref": "@ap[#A1]"
+    }
+  ],
+  "links": []
+}

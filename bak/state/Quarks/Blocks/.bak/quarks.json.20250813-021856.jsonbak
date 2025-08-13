@@ -1,0 +1,133 @@
+{
+  "#": "quarks",
+  "id": "quarks",
+  "kind": "block",
+  "symbol": "?",
+  "grid_size": [
+    3,
+    3
+  ],
+  "grid": [
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {
+          "history": [
+            {
+              "ts": 1755068943,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755068971,
+              "action": "set type ''",
+              "by": "local"
+            },
+            {
+              "ts": 1755068997,
+              "action": "clear type",
+              "by": "local"
+            }
+          ]
+        }
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ],
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": "Quarks\\quarks#A1",
+        "meta": {
+          "history": [
+            {
+              "ts": 1755064067,
+              "action": "set type @",
+              "by": "local"
+            },
+            {
+              "ts": 1755064073,
+              "action": "set type D",
+              "by": "local"
+            },
+            {
+              "ts": 1755065729,
+              "action": "set type @",
+              "by": "local"
+            },
+            {
+              "ts": 1755066153,
+              "action": "set type D",
+              "by": "local"
+            },
+            {
+              "ts": 1755068985,
+              "action": "set type ''",
+              "by": "local"
+            },
+            {
+              "ts": 1755068990,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755069502,
+              "action": "set ref Quarks\\quarks#A1",
+              "by": "local"
+            }
+          ]
+        }
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ],
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ]
+  ],
+  "meta": {
+    "created_at": 1755064014.5439384,
+    "updated_at": 1755069536.3795395
+  },
+  "links": []
+}

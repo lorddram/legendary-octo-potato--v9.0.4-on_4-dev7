@@ -1,0 +1,48 @@
+diff --git a/app_on_4.py b/app_on_4.py
+--- a/app_on_4.py
++++ b/app_on_4.py
+@@ -4,6 +4,15 @@ import argparse, json, os, sys, time, re, shutil
+ from pathlib import Path
+
++import logging
++
++# —————— Error Logging Setup ——————
++LOG_PATH = Path(__file__).resolve().parent / "state" / "error.log"
++LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
++logging.basicConfig(
++    filename=str(LOG_PATH),
++    level=logging.ERROR,
++    format="%(asctime)s %(levelname)s: %(message)s"
++)
++
+ # ------------------------------- App plumbing ------------------------------
+ def resolve_user_root(cli_path: Optional[str]) -> Path:
+
+diff --git a/app_on_4.py b/app_on_4.py
+--- a/app_on_4.py
++++ b/app_on_4.py
+@@ -217,7 +226,12 @@ def edit_node(app_root: Path, cfg: dict, path: Path) -> None:
+     node = load_node(path)
+-    if not node:
+-        print("Failed to load node."); return
++    if not node:
++        logging.error("Failed to load node at %s", path)
++        print("\nERROR: Failed to load node.")
++        input("Press Enter to continue…")
++        return
+
+-    while True:
++    while True:
++        try:
+         clear_and_draw(node, path, app_root)
+         cmd = prompt("> ")
+         if not cmd:
+
+@@ -228,6 +242,10 @@ def edit_node(app_root: Path, cfg: dict, path: Path) -> None:
+             # existing command dispatch…
+             pass
++
++        except Exception as e:
++            logging.exception("Error running command %r", cmd)
++            print(f"\nERROR: {e}")
++            input("Press Enter to continue…")

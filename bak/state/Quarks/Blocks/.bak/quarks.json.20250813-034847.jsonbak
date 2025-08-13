@@ -1,0 +1,198 @@
+{
+  "#": "quarks",
+  "id": "quarks",
+  "kind": "block",
+  "symbol": "?",
+  "grid_size": [
+    3,
+    3
+  ],
+  "grid": [
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": "@quarkbase[#A1]",
+        "meta": {
+          "history": [
+            {
+              "ts": 1755068943,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755068971,
+              "action": "set type ''",
+              "by": "local"
+            },
+            {
+              "ts": 1755068997,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755072393,
+              "action": "set type @quarks[#G1]",
+              "by": "local"
+            },
+            {
+              "ts": 1755074791,
+              "action": "set ref @quarkbase[#A1]",
+              "by": "local"
+            },
+            {
+              "ts": 1755074822,
+              "action": "set ref @quarkbase[#A1]",
+              "by": "local"
+            },
+            {
+              "ts": 1755074913,
+              "action": "clear type",
+              "by": "local"
+            }
+          ]
+        }
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ],
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": "@quarkbase[#G1]",
+        "meta": {
+          "history": [
+            {
+              "ts": 1755064067,
+              "action": "set type @",
+              "by": "local"
+            },
+            {
+              "ts": 1755064073,
+              "action": "set type D",
+              "by": "local"
+            },
+            {
+              "ts": 1755065729,
+              "action": "set type @",
+              "by": "local"
+            },
+            {
+              "ts": 1755066153,
+              "action": "set type D",
+              "by": "local"
+            },
+            {
+              "ts": 1755068985,
+              "action": "set type ''",
+              "by": "local"
+            },
+            {
+              "ts": 1755068990,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755069502,
+              "action": "set ref Quarks\\quarks#A1",
+              "by": "local"
+            },
+            {
+              "ts": 1755070575,
+              "action": "set ref @Quarks\\quarks#G1",
+              "by": "local"
+            },
+            {
+              "ts": 1755070581,
+              "action": "clear ref",
+              "by": "local"
+            },
+            {
+              "ts": 1755070585,
+              "action": "set ref @Quarks\\quarks#G1",
+              "by": "local"
+            },
+            {
+              "ts": 1755070727,
+              "action": "set ref @quarks#G1",
+              "by": "local"
+            },
+            {
+              "ts": 1755070750,
+              "action": "set ref @#G1",
+              "by": "local"
+            },
+            {
+              "ts": 1755071127,
+              "action": "set ref @quarks[#G1]",
+              "by": "local"
+            },
+            {
+              "ts": 1755072424,
+              "action": "set type @quarks[#G1]",
+              "by": "local"
+            },
+            {
+              "ts": 1755072477,
+              "action": "clear type",
+              "by": "local"
+            },
+            {
+              "ts": 1755074774,
+              "action": "set ref @quarkbase[#G1]",
+              "by": "local"
+            }
+          ]
+        }
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ],
+    [
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      },
+      {
+        "txt": "",
+        "t": null,
+        "ref": null,
+        "meta": {}
+      }
+    ]
+  ],
+  "meta": {
+    "created_at": 1755064014.5439384,
+    "updated_at": 1755074927.5135481
+  },
+  "links": []
+}
